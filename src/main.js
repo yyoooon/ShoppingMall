@@ -20,7 +20,7 @@ function createHTMLString(item) { // 하나씩 가져와지는 item은 오브젝
     return `
     <li class='item' data-type = '${item.type}' data-color = '${item.color}' >
         <img src="${item.image}" alt="${item.type}" class='item__thumbnail'>
-        <span class='item__description'>${item.gender}, ${item.size}</span>
+        <span class='item__description'>${item.type}, ${item.color}</span>
     </li>
     `;
 }
